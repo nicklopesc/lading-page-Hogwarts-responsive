@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=trocar');
+
+body{
+    background-color: #BF9B7A;
+    color: #F2F2F2;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -15px;
+}
+.logo-img img{
+    width: 100px;
+    height: 100px;
+}
+.title{
+    flex-direction: column;
+    line-height: 10px;
+    margin-left: -60px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+a{
+    color: #F2F2F2;
+}
+
+a:hover{
+    color: #042159;
+    transition: 0.5s all;
+}
+
+#area-btn{
+    border: 1px solid #042159;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#area-btn:hover{
+    background-color: #042159;
+    color: #F2F2F2;
+}
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+span{
+    color: #042159;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: lighter;
+    color: #F2F2F2;
+}
+
+.voar img{
+    width: 500px;
+    -webkit-transition:all 2s ;
+    -moz-transition: all 2s;
+    transition: all 2s;
+    animation: voar 5s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes voar {
+    0%{transform: scale(1.0);}
+    10%{transform: scale(1.01);}
+    20%{transform: scale(1.05);}
+    30%{transform: scale(1.10);}
+    40%{transform: scale(1.15);}
+    50%{transform: scale(1.20);}
+    60%{transform: scale(1.15);}
+    70%{transform: scale(1.10);}
+    80%{transform: scale(1.05);}
+    90%{transform: scale(1.01);}
+    100%{transform: scale(1.0);}
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: -20px;
+}
+
+button{
+    background-color: #042159;
+    color: #F2F2F2;
+    width: 50%;
+    padding: 8px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: #193d83;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
